@@ -1,6 +1,7 @@
 # gather-map-printer
 
 
+Prints interactive project map to png file automatically displays and centers on project spatial documents
 
 
 #Quick use
