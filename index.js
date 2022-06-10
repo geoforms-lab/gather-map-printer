@@ -22,6 +22,7 @@ const _append = (a, b) => {
 		h: 1080,
 		out: 'map.png',
 		devtools: false,
+		exit:true
 	};
 
 	console.log(opt);
@@ -84,6 +85,8 @@ const _append = (a, b) => {
 		'path': opt.out,
 	});
 
-	await browser.close();
+	if(opt.exit){
+		await browser.close();
+	}
 
 })();
